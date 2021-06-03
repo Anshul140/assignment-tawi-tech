@@ -42,23 +42,6 @@
   });
 
   /**
-   * responsive-menu
-   */
-  document.addEventListener('DOMContentLoaded', init);
-
-  function init() {
-    let query = window.matchMedia("(max-width:800px)");
-
-    if (query.matches) {
-      //if page width is less than 950px
-      mediumZoom('.zoom', {
-        background: 'rgba(0, 0, 0, 0.7)',
-        margin: 100
-      })
-    }
-  }
-
-  /**
    * Easy event listener function
    */
   const on = (type, el, listener, all = false) => {

@@ -909,12 +909,13 @@ section {
 
 @media(max-width:800px){
   .zoom {
-     /* transition: all 1000ms ease-in;  */
+     transition: all 1000ms ease-in; 
      transform: scale(1);
    }
 
   .zoom:hover{
-    transform: scale(1);
+    transform: scale(3);
+    margin-left: 45px;
   }
 }
 
