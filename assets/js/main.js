@@ -47,7 +47,7 @@
   document.addEventListener('DOMContentLoaded', init);
 
   function init() {
-    let query = window.matchMedia("(max-width:950px)");
+    let query = window.matchMedia("(max-width:800px)");
 
     if (query.matches) {
       //if page width is less than 950px
