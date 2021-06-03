@@ -909,7 +909,7 @@ section {
 
 @media(max-width:800px){
   .zoom {
-     transition: all 1000ms ease-in; 
+     transition: all 400ms ease-in; 
      transform: scale(1);
    }
 
